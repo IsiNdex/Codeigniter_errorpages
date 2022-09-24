@@ -17,15 +17,16 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            background: #3E5151; 
-            background: -webkit-linear-gradient(to right, #DECBA4, #3E5151);  
-            background: linear-gradient(to right, #DECBA4, #3E5151); 
+            background: #200122;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #6f0000, #200122);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #6f0000, #200122); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
         }
         .orta {
             float: left;
             width: 700px;
             height: 450px;
-            background-color: #3E5151;
+            background-color: #200122;
             border-radius: 20px;
             opacity: 0.7;
             display: flex;
@@ -43,7 +44,7 @@
             justify-content: center;
             font-family: 'Courier New', Courier, monospace;
             font-size: 90px;
-            color: #DECBA4;
+            color: #df9f9f;
 
             top: 25px;
         }
@@ -60,7 +61,7 @@
             font-size: 25px;
             top: 335px;
 
-            color: #DECBA4;
+            color: #df9f9f;
         }
 
         .butus {
@@ -77,9 +78,10 @@
         }
 
         .uaa {
-            color: #DECBA4;
+            color: #df9f9f;
             font-size: 20px;
             font-family: 'Courier New', Courier, monospace;
+            font-weight: 900;
             transition: 0.5s;
         }
 
@@ -97,7 +99,7 @@
         }
         
         .uaa:hover{
-            color: #3E5151;
+            color: #200122;
         }
 
         .uuu {
@@ -106,7 +108,7 @@
 
         .button-48 {
         appearance: none;
-        background-color: #3E5151;
+        background-color: #200122;
         border-width: 0;
         box-sizing: border-box;
         color: #000000;
@@ -137,7 +139,7 @@
         .button-48:before {
         animation: opacityFallbackOut .5s step-end forwards;
         backface-visibility: hidden;
-        background-color: #DECBA4;
+        background-color: #df9f9f;
         clip-path: polygon(-1% 0, 0 0, -25% 100%, -1% 100%);
         content: "";
         height: 100%;
